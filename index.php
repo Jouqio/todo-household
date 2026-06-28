@@ -76,7 +76,7 @@ $hasFilter = ($f_status !== 'semua' || $f_kategori !== 'semua' || $f_prioritas !
 </head>
 <body>
 
-<!-- ── Header ── -->
+<!-- header -->
 <header class="app-header">
   <div class="container">
     <a href="index.php" class="app-logo">
