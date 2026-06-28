@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-/* Hanya terima POST request */
+/* hanya terima POST request */
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     header('Location: index.php');
     exit;
@@ -12,7 +12,7 @@ require_once 'db.php';
 $id       = (int)($_POST['id']       ?? 0);
 $redirect = trim($_POST['redirect'] ?? 'index.php');
 
-/* Validasi redirect */
+/* validasi redirect */
 if (!preg_match('/^[a-zA-Z0-9\/_?=&%+.~-]+$/', $redirect)) {
     $redirect = 'index.php';
 }
