@@ -74,7 +74,7 @@ $prioritas_op = ['Rendah','Sedang','Tinggi'];
 
     <div class="form-heading">
       <span class="ico">➕</span>
-      <h2>Tambah Tugas Baru</h2>
+      <h2>Tambah tugas baru</h2>
     </div>
 
     <?php if (!empty($errors)): ?>
