@@ -308,7 +308,7 @@ button, select, input, textarea { font-family: inherit; }
 /* Actions */
 .task-actions { display: flex; align-items: center; gap: .25rem; flex-shrink: 0; }
 
-/* ── Forms ──────────────────────────────────────────────── */
+/*  Forms  */
 .form-wrap {
   max-width: 640px; margin: 2rem auto;
   background: var(--surface); border: 1px solid var(--border);
