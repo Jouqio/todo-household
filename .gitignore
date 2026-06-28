@@ -1,0 +1,28 @@
+# ── Database ─────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ── PHP ──────────────────────────────────────
+*.log
+*.cache
+/vendor/
+
+# ── OS ───────────────────────────────────────
+.DS_Store
+.DS_Store?
+Thumbs.db
+desktop.ini
+
+# ── IDE & Editor ─────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ── Environment ──────────────────────────────
+.env
+.env.local
