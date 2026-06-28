@@ -1,7 +1,7 @@
 <?php
 /**
  * Database connection menggunakan SQLite
- * File todo.db akan dibuat otomatis di folder yang sama
+ * file todo.db akan dibuat otomatis di folder yang sama
  */
 function getDB(): PDO {
     static $pdo = null;
