@@ -99,6 +99,6 @@ CREATE TABLE tasks (
 
 ---
 
-## 📦 Lisensi
+##  Lisensi
 
 Bebas digunakan untuk pembelajaran. Silakan modifikasi sesuai kebutuhan!
