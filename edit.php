@@ -10,7 +10,7 @@ if (!$id) {
     exit;
 }
 
-/* Ambil data tugas */
+/* ambil data tugas */
 $q = $db->prepare("SELECT * FROM tasks WHERE id = ?");
 $q->execute([$id]);
 $task = $q->fetch();
